@@ -16,7 +16,7 @@ const noMessages = [
     "Zırlıcam amaaaa 😢",
     "ÇOK ZIRLICAM AMAAA 😢",
     "Hayatıımmm hayır mı yaniiii 💔",
-    "Bak son kararın mı küüüssss...",
+    "Bak son kararın mı küüüssss...Küsmedim çünkü hayır derken biz inşallah birbirimiz için hayırlıyız dediğini biliyodum😜",
     "Küsmedim çünkü hayır derken biz inşallah birbirimiz için hayırlıyız dediğini biliyodum😜",
     "Küsmedim çünkü hayır derken biz inşallah birbirimiz için hayırlıyız dediğini biliyodum😜"
 ]
