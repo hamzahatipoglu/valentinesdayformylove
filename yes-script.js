@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
     
     // Force the player to recognize the new file
     music.load(); 
-    music.volume = 0.3;
+    music.volume = 1.0;
     
     // Play the song and update the toggle button
     music.play().then(() => {
