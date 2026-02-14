@@ -11,13 +11,13 @@ const gifStages = [
 
 const noMessages = [
     "Hayır",
-    "Emin misiiinn? 🤔",
+    "Emin misiiinn? 🥺",
     "Lütfeeennn 🥺",
-    "Zırlıcam amaaaa",
+    "Zırlıcam amaaaa 😢",
     "ÇOK ZIRLICAM AMAAA 😢",
     "Hayatıımmm hayır mı yaniiii 💔",
-    "Bak son kararın mı...",
-    "Küüüssss! 😭",
+    "Bak son kararın mı küüüssss...",
+    "Küsmedim çünkü hayır derken biz inşallah birbirimiz için hayırlıyız dediğini biliyodum😜",
     "Küsmedim çünkü hayır derken biz inşallah birbirimiz için hayırlıyız dediğini biliyodum😜"
 ]
 
