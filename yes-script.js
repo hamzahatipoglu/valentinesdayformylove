@@ -1,15 +1,25 @@
 let musicPlaying = false
 
 window.addEventListener('load', () => {
-    launchConfetti()
+    launchConfetti();
 
-    // Autoplay music (works since user clicked Yes to get here)
-    const music = document.getElementById('bg-music')
-    music.volume = 0.3
-    music.play().catch(() => {})
-    musicPlaying = true
-    document.getElementById('music-toggle').textContent = '🔊'
-})
+    const music = document.getElementById('bg-music');
+    
+    // This switches the source to your Elvis file
+    music.src = "music/L-O-V-E  Nat King Cole (Lyrics) [ ezmp3.co ].mp3";
+    
+    // Force the player to recognize the new file
+    music.load(); 
+    music.volume = 0.3;
+    
+    // Play the song and update the toggle button
+    music.play().then(() => {
+        musicPlaying = true;
+        document.getElementById('music-toggle').textContent = '🔊';
+    }).catch(error => {
+        console.log("Playback failed:", error);
+    });
+});
 
 function launchConfetti() {
     const colors = ['#ff69b4', '#ff1493', '#ff85a2', '#ffb3c1', '#ff0000', '#ff6347', '#fff', '#ffdf00']
