@@ -18,14 +18,14 @@ const noMessages = [
     "Hayatıımmm hayır mı yaniiii 💔",
     "Bak son kararın mı...",
     "Küüüssss! 😭",
-    "Medim çünkü seni çok seviyoruummm 😜"
+    "Küsmedim çünkü hayır derken biz inşallah birbirimiz için hayırlıyız dediğini biliyodum😜"
 ]
 
 const yesTeasePokes = [
-    "try saying no first... I bet you want to know what happens 😏",
-    "go on, hit no... just once 👀",
-    "you're missing out 😈",
-    "click no, I dare you 😏"
+    "Önce evetleri mi bitircen bakalım hayırları mı >3 😏",
+    "Hayırlarda da bi süprizim var 👀",
+    "Sonda hem de hihi",
+    "MMMUAAAAHH >3 <3"
 ]
 
 let yesTeasedCount = 0
